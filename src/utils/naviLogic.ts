@@ -3,7 +3,6 @@ import type { FilterState } from '../store/filterStore'
 import type { CostTier, WeekKey } from '../types/spot'
 
 const NATURE_CATS = ['自然体験', 'アウトドア', '川遊び', '動物', '農業体験']
-const LEARN_CATS = ['科学・学習', '博物館・美術館', '工場見学', 'JAXA']
 const MEMORY_CATS = ['花火', 'デジタルアート', 'テーマパーク', '体験型エンタメ', '水族館']
 
 export function naviAnswersToFilter(a: NaviAnswers): Partial<FilterState> {
